@@ -1,0 +1,6 @@
+def fibonacci_nums():
+    '''Generator function to yield Fibonacci numbers.'''
+    a, b = 1, 0
+    while True:
+        yield a
+        a, b = a + b, a
