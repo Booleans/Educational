@@ -14,7 +14,6 @@ def prime_numbers():
 
 def is_prime(x):
     '''Take in an integer value as input and return True or False if the number is prime or not.'''
-    x = int(x)
     if (x == 2):
         return True
     if (x % 2 == 0 or x <= 1):
